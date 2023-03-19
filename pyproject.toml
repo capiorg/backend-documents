@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "minio-documents"
+version = "0.1.0"
+description = ""
+authors = ["dotX12"]
+
+[tool.poetry.dependencies]
+python = "3.11"
+fastapi = "^0.94.1"
+miniopy-async = "^1.12"
+uvicorn = "^0.21.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
