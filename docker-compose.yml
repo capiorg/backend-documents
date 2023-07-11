@@ -10,9 +10,9 @@ services:
    environment:
      MINIO_ROOT_USER: capiuser
      MINIO_ROOT_PASSWORD: capi11137minio123
-     MINIO_BROWSER_REDIRECT_URL: https://console.minio.infra.shitposting.team
-     MINIO_DOMAIN: minio.infra.shitposting.team
-     MINIO_SERVER_URL: https://minio.infra.shitposting.team
+     MINIO_BROWSER_REDIRECT_URL: https://console.minio.infra.site.com
+     MINIO_DOMAIN: minio.infra.site.com
+     MINIO_SERVER_URL: https://minio.infra.site.com
    volumes:
      - minio-storage:/data
    healthcheck:
